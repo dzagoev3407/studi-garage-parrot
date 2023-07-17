@@ -1,0 +1,274 @@
+body 
+{
+  background-color: #F2F2F2;
+  color: #262526;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p
+{
+  font-family: 'Barlow', 'Léger';
+}
+
+h1, h2, h3, h4, h5
+{
+  font-family: 'Rajdhani', 'Gras';
+}
+  
+header 
+{
+  background-color: #D92332;
+  padding: 20px;
+  text-align: center;
+  color: #F2F2F2;
+}
+
+header .logo
+{
+  width: 250px;
+  height: 110px;
+}
+  
+.navbar 
+{
+  background-color: #D94350;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+}
+  
+.nav a 
+{
+  color: #F2F2F2;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover
+{
+  text-decoration: none;
+  color: white;
+}
+
+.section-cnx-navbar
+{
+  margin-left: 125px;
+}
+
+.admin-link-nav
+{
+  display: flex;
+  float: right;
+  font-size: 13px;
+  font-variant-caps: all-small-caps;
+  margin-left: 25px;
+  padding-top: 2%;
+}
+
+.admin-link-nav a
+{
+  height: 25px;
+  width: 105px;
+}
+
+.admin-link-nav button
+{
+  height: 25px;
+  width: 105px;
+  font-size: 14px;
+  padding-top: 1px;
+  margin-left: 10px;
+}
+
+.employes-link-nav
+{
+  display: inline-flex;
+  padding-top: 2%;
+  margin-left: 14px;
+}
+
+.employes-link-nav button
+{
+  height: 25px;
+  width: 105px;
+  font-size: 14px;
+  padding-top: 1px;
+  margin-left: 10px;
+}
+
+.jumbotron
+{
+  background-image: url('../img/jumbotron-img.jpg');
+  padding: 45px;
+  background-size: 1355px;
+  background-repeat: no-repeat;
+}
+
+.title-services
+{
+  background-color: #D94350;
+  margin-top: -34px;
+  padding: 15px;
+}
+
+.icon-rep_mecanique
+{
+  width: 55px;
+  height: 55px;
+  display: flex;
+  margin: auto;
+}
+
+.icon-rep_electrique
+{
+  width: 65px;
+  height: 65px;
+  display: flex;
+  margin: auto;
+}
+
+.icon-rep_carrosserie
+{
+  width: 55px;
+  height: 55px;
+  display: flex;
+  margin: auto;
+}
+
+.car-occassion
+{
+  background-color: #D94350;
+  margin-top: -10px;
+  padding: 15px;
+}
+
+.contact-section
+{
+  background-color: #D94350;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.title-services > h2
+{
+  font-size: 2em;
+}
+  
+section 
+{
+  padding: 20px;
+}
+
+.btn-plus
+{
+  background-color: #D92332;
+}
+
+#carImage
+{
+  width: 475px;
+}
+  
+footer 
+{
+  background-color: #D92332;
+  padding: 20px;
+  text-align: center;
+  color: #F2F2F2;
+  font-size: 14px;
+}
+
+footer li
+{
+  list-style-type: none;
+}
+
+/* Dashboard Admin */
+
+.header-cnx-admin 
+{
+  background-color: #D92332;
+  padding: 20px;
+  text-align: center;
+  color: #F2F2F2;
+}
+    
+.form-admin-cnx 
+{
+  padding: 20px;
+}
+    
+.form-group 
+{
+  margin-bottom: 20px;
+}
+    
+.form-control 
+{
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #262526;
+  border: 1px solid #D94350;
+}
+
+.contact-form input
+{
+  width: 420px;
+}
+
+@media screen and(max-width: 995px)
+{
+  .contact-form input
+  {
+    width: 270px;
+  }
+}
+
+.form-container 
+{
+  border: 1px solid #D92332;
+  padding: 20px;
+}
+    
+.btn-cnx
+{
+  background-color: #D92332;
+  border: none;
+  border-radius: 0;
+  color: #F2F2F2;
+  padding: 10px 20px;
+}
+    
+.btn-cnx:hover 
+{
+  background-color: #D94350;
+  color: #F2F2F2;
+}
+
+/* Page d'administrateur */
+
+.admin-logged-message
+{
+  background-color: #D94350;
+  text-align: right;
+}
+
+.icon-stats
+{
+  color: #D92332;
+  font-size: 2.7em;
+}
+
+.desc-stats
+{
+  font-size: 1.5em;
+}
+
+.verif
+{
+  display: none;
+}
